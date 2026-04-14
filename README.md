@@ -18,7 +18,7 @@ Script do Repositório:
 - [✔️] Padrão da Indústria: É a linguagem padrão utilizada em ferramentas *como Power BI, Tableau, Kafka, Spark e Synapse*.
 
 
-# 2 Sistema de Gerenciamento de Banco de Dados
+# 2. Sistema de Gerenciamento de Banco de Dados
 
 ## O **DBMS** atua como a interface principal entre o usuário e o banco de dados.
 - Os bancos de dados são normalmente hospedados em *servidores* ou na *nuvem*.
@@ -45,7 +45,9 @@ Script do Repositório:
     * DATE - Formato 'YYYY-MM-DD'
     * TIME - Formato 'HH:MM:SS'
 
-  # 3 Tipos de Comandos **SQL**
+  # 3. Tipos de Comandos **SQL**
+  * O SQL divide-se nestas categorias principais:
+    
 | Comando | Nome Completo              | Função                                         | Exemplos                     |
 |--------|--------------------------|-----------------------------------------------|-----------------------------|
 | DDL    | Definição de Dados        | Cria e altera a estrutura do banco ("esqueleto") | CREATE, ALTER, DROP         |
@@ -79,7 +81,7 @@ Script do Repositório:
    ```
  
 
-# 4 Anatomia de uma Declaração *SQL*
+# 4. Anatomia de uma Declaração *SQL*
 * Uma instrução **SQL** é composta de elementos específicos que dizem ao banco como processar o pedido:
  
  ## Estrutura Básica de Consulta
@@ -128,7 +130,7 @@ Script do Repositório:
 
 
 
-## 5 Chave Estrangeira
+## 5. Chave Estrangeira
 *  O que é **Chave Estrangeira (Foreign Key)?**
 *  A *chave estrangeira* é um campo de uma tabela que *aponta para a chave primária de outra*
 tabela.
@@ -161,7 +163,7 @@ tabela.
 
 
 
-## 6 Normalização
+## 6. Normalização
 * Normalizar um banco de dados é **organizar as informações para que cada dado exista apenas
 uma vez**, evitando repetição, erros e bagunça nas tabelas.
 
@@ -173,7 +175,7 @@ uma vez**, evitando repetição, erros e bagunça nas tabelas.
 
 ## *3FN:* Deve estar na 2FN. Remove dependências transitivas (campos não-chave devem depender apenas da chave primária).
 
-## 7 Métodos de Combinação
+## 7. Métodos de Combinação
 
 ## JOINS (Adição de Colunas - Horizontal)
 * Conectamos tabelas lateralmente através de uma coluna comum. *Inner Join:* Apenas o que existe em ambas as tabelas. *Left Join:* Mantemos tudo da tabela à esquerda e trazemos o que houver da direita. *Right Join:* Mantemos tudo da direita e trazemos o que houver da esquerda. *Full Join:* Trazemos tudo de ambos os lados, independentemente de haver correspondência.
@@ -198,7 +200,7 @@ colunas.
 * FROM
     * Funcionarios;
 
-##  8 O que são Funções SQL?
+##  8. O que são Funções SQL?
 
 São conjuntos de instruções que recebem um ou mais valores de entrada, os processam e retornam um novo valor de saída (Entrada -> FUNÇÃO -> Saída).
 
@@ -221,7 +223,7 @@ CASE
 END
    ```
 
-## 9 Funções de Agregação e Agrupamento
+## 9. Funções de Agregação e Agrupamento
 
 Diferente das funções de linha única, as funções de agregação processam um **conjunto de valores** (várias linhas) e retornam um **único valor resumido**. Elas são perfeitas para criar indicadores, como totais, médias e contagens.
 
