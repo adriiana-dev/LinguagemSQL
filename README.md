@@ -1,4 +1,5 @@
 Guia de estudos de Linguagem SQL! Esse documento reúne os principais conceitos teóricos e práticos para a construção, manipulação e consulta de dados relacionais.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue) ![SQL](https://img.shields.io/badge/SQL-Structured_Query_Language-orange)
 
 Script do Repositório:
 
