@@ -44,3 +44,8 @@ EXCEPTION
 END;
 $procedure$
 ;
+
+
+CALL realizar_venda(1, 2);
+SELECT * FROM produtos;
+SELECT * FROM vendas;
